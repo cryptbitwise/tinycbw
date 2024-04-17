@@ -1,0 +1,19 @@
+{
+  "name": "Node.js environment",
+  "build": {
+    "dockerfile": "Dockerfile" 
+  },
+  "settings": {
+    "terminal.integrated.inheritEnv": true 
+  },
+  "apps": [
+    {
+      "name": "VS Code",
+      "command": "code",
+      "args": ["."]
+    }
+  ],
+  "remoteEnv": [
+    "<cryptbitwise>/<tinycbw>" // 
+  ]
+}
